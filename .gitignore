@@ -1,0 +1,17 @@
+# Python - caché y entornos virtuales
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Carpetas del editor
+.vscode/
+.idea/
+
+# Datos generados en tiempo de ejecución (persistencia local)
+data/
+
+# Sistema
+.DS_Store
+Thumbs.db
