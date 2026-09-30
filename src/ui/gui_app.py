@@ -43,7 +43,7 @@ class CasaDeCambioApp:
     def __init__(self, servicio: AppService) -> None:
         self._s = servicio
         self._raiz = tk.Tk()
-        self._raiz.title("CasaDeCambio · Servicio profesional de divisas")
+        self._raiz.title("SUMAQ CAMBIO S.A.C. · Sistema Profesional de Cambio de Divisas")
         self._raiz.geometry("1080x680")
         self._raiz.configure(bg=COLOR_FONDO)
         self._liquidar_reloj()
